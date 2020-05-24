@@ -1,6 +1,5 @@
 open the program by typing this command in terminal or cmd
-python3 degrees.py small (use small directory) or
-python3 degrees.py large (use large directory) 
+python3 degrees.py small
 
 Enter two names in the people.csv file (in the chosen directory) to see their connections.
 
