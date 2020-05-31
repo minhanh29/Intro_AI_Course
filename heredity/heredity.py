@@ -185,8 +185,6 @@ def joint_probability(people, one_gene, two_genes, have_trait):
             father = people_infor[people[person]["father"]]["gene"]
             trait_prob = PROBS["trait"][num_gene][people_infor[person]["trait"]]
 
-            print(trait_prob)
-
             if num_gene == 0:
                 result *= (1 - inherit[mother]) * (1 - inherit[father])
             elif num_gene == 1:
