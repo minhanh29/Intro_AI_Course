@@ -1,4 +1,4 @@
-This program predicts whether as online customer purchase a product.
+This program predicts whether an online customer purchases a product.
 
 1. Install scikit-learn
 pip install -U scikit-learn
